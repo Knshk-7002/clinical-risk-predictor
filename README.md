@@ -6,7 +6,6 @@
 [![Hugging Face Spaces](https://img.shields.io/badge/🤗%20Hugging%20Face-Backend%20Live-yellow?style=for-the-badge)](https://huggingface.co/spaces/purvansh01/astramed-backend)
 [![Vercel Deployment](https://img.shields.io/badge/▲%20Vercel-Frontend%20Live-black?style=for-the-badge)](https://clinical-risk-predictor-nine.vercel.app/)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
-[![Praxis 2.0](https://img.shields.io/badge/Submission-Praxis%202.0-blueviolet?style=for-the-badge)](https://github.com)
 
 **AstraMed** represents a paradigm shift in[**Explore Live App**](https://clinical-risk-predictor-nine.vercel.app/) | [**Test API Engine**](https://huggingface.co/spaces/purvansh01/astramed-backend/docs) | [**View Code**](https://github.com/purvanshjoshi/clinical-risk-predictor)
 
@@ -26,7 +25,6 @@
 
 ## 📑 Table of Contents
 
-- [🏆 Praxis 2.0 Overview](#-praxis-20-overview)
 - [🌍 Live Deployment](#-live-deployment)
 - [🎯 Problem Statement](#-problem-statement)
 - [💡 Solution Architecture](#-solution-architecture)
@@ -37,42 +35,10 @@
 - [⚡ Quick Start](#-quick-start)
 - [📦 Project Structure](#-project-structure)
 - [📊 Expected Deliverables](#-expected-deliverables)
-- [🎓 Evaluation Criteria](#-evaluation-criteria)
 - [📚 Documentation](#-documentation)
 - [🤝 Contributing](#-contributing)
 - [📄 License](#-license)
 
----
-
-## 🏆 Praxis 2.0 Overview
-
-<table>
-<tr>
-<td width="33%" align="center">
-<img src="https://img.icons8.com/fluency/96/000000/artificial-intelligence.png" width="80"/>
-<h3>🤖 Machine Learning</h3>
-<p><i>Advanced risk prediction and patient stratification</i></p>
-</td>
-<td width="33%" align="center">
-<img src="https://img.icons8.com/fluency/96/000000/brain.png" width="80"/>
-<h3>✨ Generative AI</h3>
-<p><i>Intelligent reasoning and natural language insights</i></p>
-</td>
-<td width="33%" align="center">
-<img src="https://img.icons8.com/fluency/96/000000/health-graph.png" width="80"/>
-<h3>👥 Human-Centric</h3>
-<p><i>Clinical relevance and usability first</i></p>
-</td>
-</tr>
-</table>
-
-**Praxis 2.0** is a GenAI + Machine Learning innovation showcase where we design and build functional prototypes addressing real-world challenges. This project demonstrates:
-
-> 🎯 **Machine Learning** for risk prediction and stratification  
-> 🧠 **Generative AI** for reasoning, explanation, and patient-friendly insights  
-> 💚 **Human-Centric Design** prioritizing clinical relevance and usability
-
----
 
 ## 🌍 Live Deployment
 
@@ -457,7 +423,6 @@ This empowers shared decision-making and personalized goal setting.
 
 <div align="center">
 
-### 🎯 Sprint to Submission — February 10 Deadline
 
 </div>
 
@@ -809,7 +774,7 @@ clinical-risk-predictor/
 - ✅ Impact and use cases
 - ✅ Future roadmap
 
-**Video Link**: [YouTube/Praxis-Demo](https://youtube.com)
+**Video Link**: [YouTube/Product-Demo](https://youtube.com)
 
 </td>
 <td width="50%">
@@ -829,112 +794,6 @@ clinical-risk-predictor/
 </tr>
 </table>
 
----
-
-## 🎓 Evaluation Criteria
-
-<div align="center">
-
-### 🏆 Aligning with Praxis 2.0 Values
-
-</div>
-
-Our project is designed to excel across all evaluation dimensions:
-
-<table>
-<tr>
-<td width="50%">
-
-### 💡 1. Thoughtful Problem Framing
-
-**Score Target: 🌟🌟🌟🌟🌟**
-
-✅ **Clear User Needs**
-- Clinicians need efficient risk assessment
-- Patients need understandable explanations
-- Both need actionable recommendations
-
-✅ **Real-World Impact**
-- Addresses silent disease progression
-- Reduces healthcare costs
-- Improves patient outcomes
-
-✅ **Dual Interface Design**
-- Technical dashboard for clinicians
-- Simple portal for patients
-
-</td>
-<td width="50%">
-
-### 🔬 2. Sound Technical Reasoning
-
-**Score Target: 🌟🌟🌟🌟🌟**
-
-✅ **Appropriate ML Metrics**
-- AUC-ROC for discrimination
-- Calibration plots for reliability
-- Brier score for accuracy
-
-✅ **Model Validation**
-- K-fold cross-validation
-- Test set holdout evaluation
-- Bias analysis across demographics
-
-✅ **Uncertainty Quantification**
-- Confidence intervals on predictions
-- Model disagreement metrics
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-### ⚖️ 3. Responsible Use of AI
-
-**Score Target: 🌟🌟🌟🌟🌟**
-
-✅ **Bias Mitigation**
-- Fairness checks by age/gender/ethnicity
-- Equitable error rates analysis
-- Demographic parity assessment
-
-✅ **Safety Guardrails**
-- Clinical validation rules
-- Out-of-distribution detection
-- Human-in-the-loop design
-
-✅ **Transparency**
-- SHAP explanations for all predictions
-- Clear limitation disclaimers
-- Model card documentation
-
-</td>
-<td width="50%">
-
-### 📢 4. Clear Communication
-
-**Score Target: 🌟🌟🌟🌟🌟**
-
-✅ **Technical Clarity**
-- Well-documented code
-- Architectural diagrams
-- API specifications
-
-✅ **Patient-Friendly Language**
-- Avoid medical jargon
-- Visual metaphors (traffic lights)
-- Actionable recommendations
-
-✅ **GenAI Integration**
-- BioMistral for natural language summaries
-- Context-aware explanations
-- Personalized action plans
-
-</td>
-</tr>
-</table>
-
----
 
 ## 📚 Documentation
 
@@ -1013,19 +872,6 @@ Production setup, Docker guide
 
 **MIT License** — See [LICENSE](LICENSE) file for details
 
----
-
-### 🌟 Acknowledgments
-
-Built with ❤️ for **Praxis Hackathon 2025**
-
-Special thanks to:
-- 🏆 Praxis 2.0 Organizing Committee
-- 🏥 Healthcare domain experts
-- 🤖 Open-source ML/AI community
-- 👥 Our amazing team members
-
----
 
 <p align="center">
   <strong>Ready to Transform Healthcare Through AI?</strong><br/>

@@ -2,7 +2,7 @@
 
 ## Model Details
 *   **Name**: CRP-Diabetes-v1
-*   **Version**: 1.0 (Praxis 2.0 Prototype)
+*   **Version**: 1.0 (Prototype)
 *   **Type**: Binary Classification (High Risk / Low Risk) & Probability Estimation
 *   **Frameworks**: Scikit-learn, XGBoost
 
@@ -12,7 +12,7 @@
 *   **Out of Scope**: Diagnosing patients without confirmatory lab tests (e.g., HbA1c).
 
 ## Data
-*   **Source**: Praxis 2.0 curated `diabetes_dataset.csv`.
+*   **Source**: Curated `diabetes_dataset.csv`.
 *   **Features Used**: BMI, Age, Glucose Levels, Blood Pressure, Insulin, etc.
 *   **Preprocessing**: Standardization of continuous variables, imputation of missing values.
 
