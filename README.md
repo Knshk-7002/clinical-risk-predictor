@@ -1,4 +1,12 @@
-
+---
+title: Astramed Backend
+emoji: 🏥
+colorFrom: blue
+colorTo: green
+sdk: docker
+pinned: false
+app_port: 7860
+---
 
  ## 🏥 𝐀𝐬𝐭𝐫𝐚𝐌𝐞𝐝: 𝐂𝐥𝐢𝐧𝐢𝐜𝐚𝐥 𝐑𝐢𝐬𝐤 𝐀𝐈
 ### *Next-Generation Predictive Analytics & Decision Support System*
