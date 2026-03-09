@@ -64,7 +64,8 @@ class ClinicalLLM:
                 # allow_download=False because we manually downloaded it
                 # model_path=self.weights_dir tells GPT4All where to look for self.filename
                 # Reduced threads to 2 to match typical container limits and prevent thrashing
-                self.model = GPT4All(model_name=self.filename, model_path=self.weights_dir, allow_download=False, device='cpu', n_threads=2)
+                # Increased threads to 8 as system has 12 cores, balanced with gunicorn workers
+                self.model = GPT4All(model_name=self.filename, model_path=self.weights_dir, allow_download=False, device='cpu', n_threads=8)
             
             print("✅ Clinical Model loaded successfully.")
         except Exception as e:
@@ -82,7 +83,7 @@ class ClinicalLLM:
             
             self.model = None
 
-    def stream_report(self, patient_data: Dict[str, Any], risk_score: float, risk_level: str, explanations: list):
+    def stream_report(self, patient_data: Dict[str, Any], risk_score: float, risk_level: str, explanations: list, patient_name: str = None):
         """
         Streams a clinical report for the patient.
         Yields tokens as they are generated.
@@ -108,6 +109,7 @@ class ClinicalLLM:
 You are an expert Chief Medical Officer. Generate a detailed, evidence-based clinical assessment and care plan for the following patient.
 
 **Patient Profile:**
+- Name: {patient_name if patient_name else 'N/A'}
 - Age: {patient_data.get('age')} | Gender: {patient_data.get('gender')}
 - BMI: {patient_data.get('bmi')} (Classification: {'Obese' if patient_data.get('bmi') >= 30 else 'Overweight' if patient_data.get('bmi') >= 25 else 'Normal'})
 - HbA1c: {patient_data.get('HbA1c_level')}%
@@ -147,13 +149,13 @@ Provide 3-4 specific, actionable steps based on standard clinical guidelines (AD
         except Exception as e:
             yield f"Error during generation: {e}"
 
-    def generate_report(self, patient_data: Dict[str, Any], risk_score: float, risk_level: str, explanations: list) -> str:
+    def generate_report(self, patient_data: Dict[str, Any], risk_score: float, risk_level: str, explanations: list, patient_name: str = None) -> str:
         """
         Generates a clinical report for the patient (Non-streaming).
         """
         # Reuse stream_report logic for DRY if possible, but keep separate for safety for now
         # Actually, let's just use non-streaming for now as fallback
-        return "".join(list(self.stream_report(patient_data, risk_score, risk_level, explanations)))
+        return "".join(list(self.stream_report(patient_data, risk_score, risk_level, explanations, patient_name=patient_name)))
 
     def generate_simulation_report(self, original_data: Dict[str, Any], modified_data: Dict[str, Any], original_risk: float, new_risk: float) -> str:
         """

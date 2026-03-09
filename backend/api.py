@@ -198,7 +198,7 @@ def generate_report(patient: PatientRequest):
             *Note: This is a placeholder report as the local AI model (BioMistral) is currently offline.*
             """
         else:
-            report = clinical_llm.generate_report(data, score, level, explanations)
+            report = clinical_llm.generate_report(data, score, level, explanations, patient_name=patient_name)
         
         pdf_filename = None
         pdf_url = None
@@ -250,7 +250,7 @@ def generate_report_stream(patient: ReportGenerationRequest):
                 yield f"data: {word} \n\n"
                 full_report += word + " "
         else:
-            for token in clinical_llm.stream_report(data, score, level, explanations):
+            for token in clinical_llm.stream_report(data, score, level, explanations, patient_name=patient_name):
                 yield f"data: {token}\n\n"
                 if isinstance(token, str):
                     full_report += token
