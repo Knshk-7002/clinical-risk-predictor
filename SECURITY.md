@@ -14,7 +14,7 @@ The following versions of AstraMed are currently being supported with security u
 We take the security of AstraMed seriously. If you believe you have found a security vulnerability, please report it to us by following these steps:
 
 1. **Do NOT open a public issue.**
-2. Send an email to **[INSERT SECURITY EMAIL]** with a detailed description of the vulnerability.
+2. Send an email to **purvanshjoshi7534011576@gmail.com** with a detailed description of the vulnerability.
 3. Include any relevant logs, screenshots, or code snippets that can help us reproduce the issue.
 
 We will acknowledge your report within 48 hours and provide a timeline for a fix if necessary. We request that you do not disclose the vulnerability publicly until we have had a chance to address it.

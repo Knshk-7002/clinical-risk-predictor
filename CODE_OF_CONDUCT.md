@@ -1,6 +1,10 @@
 # Contributor Covenant Code of Conduct
 
-## Our Pledge
+## Our Commitment to a Healthy Community
+
+At **AstraMed**, we recognize that creating a high-impact clinical intelligence platform requires a diverse, respectful, and safe community. We are committed to fostering an environment where every contributor—whether a clinician, researcher, or developer—feels valued and respected.
+
+### Our Pledge
 
 We as members, contributors, and leaders pledge to make participation in our community a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, caste, color, religion, or sexual identity and orientation.
 
@@ -36,7 +40,7 @@ This Code of Conduct applies within all community spaces, and also applies when 
 
 ## Enforcement
 
-Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to the community leaders responsible for enforcement at [INSERT EMAIL ADDRESS]. All complaints will be reviewed and investigated promptly and fairly.
+Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to the community leaders responsible for enforcement at **purvanshjoshi7534011576@gmail.com**. All complaints will be reviewed and investigated promptly and fairly.
 
 All community leaders are obligated to respect the privacy and security of the reporter of any incident.
 
