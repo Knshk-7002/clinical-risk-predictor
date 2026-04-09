@@ -1,92 +1,65 @@
-# Contributor Covenant Code of Conduct
+# AstraMed: Professional Code of Conduct & Ethics
 
-## Our Commitment to a Healthy Community
+## 1. Vision & Core Values
 
-At **AstraMed**, we recognize that creating a high-impact clinical intelligence platform requires a diverse, respectful, and safe community. We are committed to fostering an environment where every contributor—whether a clinician, researcher, or developer—feels valued and respected.
+At **AstraMed**, we are building more than just software; we are developing a clinical intelligence ecosystem that impacts human lives. To achieve this, our community must be built on a foundation of absolute integrity, mutual respect, and professional excellence.
 
-### Our Pledge
+Our participation is guided by three core values:
+- **🏥 Clinical Integrity**: We prioritize accuracy, safety, and evidence-based analysis above all.
+- **🤝 Radical Transparency**: We are open about our models, our data, and our limitations.
+- **✨ Inclusive Innovation**: We welcome all voices that contribute to the mission of better health outcomes.
 
-We as members, contributors, and leaders pledge to make participation in our community a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, caste, color, religion, or sexual identity and orientation.
+---
 
-We pledge to act and interact in ways that contribute to an open, welcoming, diverse, inclusive, and healthy community.
+## 2. Professional Standards
 
-## Our Standards
+We expect all contributors to demonstrate the following behaviors:
 
-Examples of behavior that contributes to a positive environment for our community include:
+*   **Empathy & Respect**: Treat every community member with professional courtesy.
+*   **Scientific Rigor**: Ground technical discussions in data and peer-reviewed evidence.
+*   **Constructive Critique**: Focus feedback on the code and the science, never the person.
+*   **Accountability**: Own your contributions and learn from mistakes.
 
-* Demonstrating empathy and kindness toward other people
-* Being respectful of differing opinions, viewpoints, and experiences
-* Giving and gracefully accepting constructive feedback
-* Accepting responsibility and apologizing to those affected by our mistakes, and learning from the experience
-* Focusing on what is best not just for us as individuals, but for the overall community
+### 🚫 Unacceptable Conduct
+The following behaviors are strictly prohibited and will result in immediate enforcement action:
+- Harassment, trolling, or insulting/derogatory comments.
+- Use of sexualized language or unwelcome advances.
+- Public or private "doxxing" (publishing private information).
+- Deliberate injection of bias or unverified medical claims into the codebase.
 
-Examples of unacceptable behavior include:
+---
 
-* The use of sexualized language or imagery, and unwelcome sexual attention or advances
-* Trolling, insulting or derogatory comments, and personal or political attacks
-* Public or private harassment
-* Publishing others' private information, such as a physical or email address, without their explicit permission
-* Other conduct which could reasonably be considered inappropriate in a professional setting
+## 3. Medical & Analytical Integrity
 
-## Enforcement Responsibilities
+Given the clinical nature of this project, contributors must adhere to specialized standards:
+- **No Unverified Claims**: Never contribute algorithms or logic that suggest medical diagnoses without clear citations or model validation.
+- **Bias Awareness**: Actively search for and report any demographic bias in our risk engines.
+- **Privacy First**: Never use or upload real patient data (PHI) to any public branch or issue.
 
-Community leaders are responsible for clarifying and enforcing our standards of acceptable behavior and will take appropriate and fair corrective action in response to any behavior that they deem inappropriate, threatening, offensive, or harmful.
+---
 
-Community leaders have the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned to this Code of Conduct, and will communicate reasons for moderation decisions when appropriate.
+## 4. Enforcement & Reporting
 
-## Scope
+### 🛡️ Reporting a Violation
+If you experience or witness a violation of these standards, please report it immediately to the Project Governance Lead:
 
-This Code of Conduct applies within all community spaces, and also applies when an individual is officially representing the community in public spaces. Examples of representing our community include using an official e-mail address, posting via an official social media account, or acting as an appointed representative at an online or offline event.
+📩 **Email**: [purvanshjoshi7534011576@gmail.com](mailto:purvanshjoshi7534011576@gmail.com)
 
-## Enforcement
+**Confidentiality**: All reports will be handled with the strictest confidentiality. Reporters will be protected from any form of retaliation.
 
-Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to the community leaders responsible for enforcement at **purvanshjoshi7534011576@gmail.com**. All complaints will be reviewed and investigated promptly and fairly.
+### ⚖️ Technical Enforcement Ladder
 
-All community leaders are obligated to respect the privacy and security of the reporter of any incident.
+| Level | Action | Description |
+| :--- | :--- | :--- |
+| **I** | **Formal Correction** | A private written warning and clarification of standard. |
+| **II** | **Active Warning** | A temporary suspension from project interaction. |
+| **III** | **Temporary Ban** | A multi-week ban from all community spaces. |
+| **IV** | **Permanent Ban** | Immediate and permanent removal from the project. |
 
-## Enforcement Guidelines
+---
 
-Community leaders will follow these Community Impact Guidelines in determining the consequences for any action they deem in violation of this Code of Conduct:
+## 5. Scope & Attribution
 
-### 1. Correction
+This code applies to all AstraMed community spaces, including GitHub, linked social media, and any official project events.
 
-**Community Impact**: Use of inappropriate language or other behavior deemed unprofessional or unwelcome in the community.
-
-**Consequence**: A private, written warning from community leaders, providing clarity around the nature of the violation and an explanation of why the behavior was inappropriate. A public apology may be requested.
-
-### 2. Warning
-
-**Community Impact**: A violation through a single incident or series of actions.
-
-**Consequence**: A warning with consequences for continued behavior. No interaction with the people involved, including unsolicited interaction with those enforcing the Code of Conduct, for a specified period of time. This includes avoiding interactions in community spaces as well as external channels like social media. Violating these terms may lead to a temporary or permanent ban.
-
-### 3. Temporary Ban
-
-**Community Impact**: A serious violation of community standards, including sustained harassing behavior.
-
-**Consequence**: A temporary ban from any sort of interaction or public communication with the community for a specified period of time. No private interaction with the people involved, including unsolicited interaction with those enforcing the Code of Conduct, is allowed. Violating these terms may lead to a permanent ban.
-
-### 4. Permanent Ban
-
-**Community Impact**: Demonstrating a pattern of community standards violations, including sustained harassing behavior, harassment of an individual, or aggression toward or disparagement of classes of individuals.
-
-**Consequence**: A permanent ban from any sort of public interaction within the community.
-
-## Attribution
-
-This Code of Conduct is adapted from the [Contributor Covenant][homepage],
-version 2.1, available at
-[https://www.contributor-covenant.org/version/2/1/code_of_conduct.html][v2.1].
-
-Community Impact Guidelines were inspired by
-[Mozilla's code of conduct enforcement ladder][Mozilla CoC].
-
-For answers to common questions about this code of conduct, see the FAQ at
-[https://www.contributor-covenant.org/faq][faq]. Translations are available at
-[https://www.contributor-covenant.org/translations][translations].
-
-[homepage]: https://www.contributor-covenant.org
-[v2.1]: https://www.contributor-covenant.org/version/2/1/code_of_conduct.html
-[Mozilla CoC]: https://github.com/mozilla/active-撐持/blob/master/code-of-conduct-enforcement-ladder.md
-[faq]: https://www.contributor-covenant.org/faq
-[translations]: https://www.contributor-covenant.org/translations
+*This Code of Conduct is adapted from the [Contributor Covenant](https://www.contributor-covenant.org), version 2.1, and incorporates principles from the [IEEE Global Initiative on Ethics of Autonomous and Intelligent Systems](https://ethicsinaction.ieee.org/).*
