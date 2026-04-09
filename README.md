@@ -8,24 +8,22 @@ pinned: false
 app_port: 7860
 ---
 
- ## 🏥 𝐀𝐬𝐭𝐫𝐚𝐌𝐞𝐝: 𝐂𝐥𝐢𝐧𝐢𝐜𝐚𝐥 𝐑𝐢𝐬𝐤 𝐀𝐈
-### *Next-Generation Predictive Analytics & Decision Support System*
+
+<div align="center">
+
+# 🏥 𝐀𝐬𝐭𝐫𝐚𝐌𝐞𝐝: 𝐂𝐥𝐢𝐧𝐢𝐜𝐚𝐥 𝐑𝐢𝐬𝐤 𝐈𝐧𝐭𝐞𝐥𝐥𝐢𝐠𝐞𝐧𝐜𝐞
+### *Empowering Precision Medicine with SOTA Ensemble ML & Generative AI*
 
 [![Hugging Face Spaces](https://img.shields.io/badge/🤗%20Hugging%20Face-Backend%20Live-yellow?style=for-the-badge)](https://huggingface.co/spaces/purvansh01/astramed-backend)
 [![Vercel Deployment](https://img.shields.io/badge/▲%20Vercel-Frontend%20Live-black?style=for-the-badge)](https://clinical-risk-predictor-nine.vercel.app/)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
+[![Python Version](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 
-**AstraMed** represents a paradigm shift in[**Explore Live App**](https://clinical-risk-predictor-nine.vercel.app/) | [**Test API Engine**](https://huggingface.co/spaces/purvansh01/astramed-backend/docs) | [**View Code**](https://github.com/purvanshjoshi/clinical-risk-predictor)
+[**Explore Interactive App**](https://clinical-risk-predictor-nine.vercel.app/) • [**API Documentation**](https://huggingface.co/spaces/purvansh01/astramed-backend/docs) • [**Technical Specs**](#-the-machine-learning-engine)
 
-</div>
+---
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3.10+-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
-  <img src="https://img.shields.io/badge/FastAPI-0.104+-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI"/>
-  <img src="https://img.shields.io/badge/React-18+-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React"/>
-  <img src="https://img.shields.io/badge/TypeScript-5.0+-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/>
-  <img src="https://img.shields.io/badge/Docker-Ready-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker"/>
-</p>
+**AstraMed** is a high-performance clinical decision support system (CDSS) designed to detect early risk signals for chronic diseases. By combining **Gradient Boosted Ensembles**, **Explainable AI (SHAP)**, and **BioMistral-7B**, AstraMed provides clinicians with actionable insights, personalized patient reports, and real-time "What-If" simulation capabilities.
 
 </div>
 
@@ -33,18 +31,14 @@ app_port: 7860
 
 ## 📑 Table of Contents
 
-- [🌍 Live Deployment](#-live-deployment)
-- [🎯 Problem Statement](#-problem-statement)
-- [💡 Solution Architecture](#-solution-architecture)
-- [🚀 Key Features](#-key-features)
-- [🛠️ Tech Stack](#️-tech-stack)
-- [👥 Team Structure](#-team-structure)
-- [📅 Development Timeline](#-development-timeline)
-- [⚡ Quick Start](#-quick-start)
-- [📦 Project Structure](#-project-structure)
-- [📊 Expected Deliverables](#-expected-deliverables)
-- [📚 Documentation](#-documentation)
-- [🤝 Contributing](#-contributing)
+- [🌍 Live Platform](#-live-platform)
+- [🧩 The Problem](#-the-problem)
+- [🏗️ System Architecture](#-system-architecture)
+- [🚀 Platform Pillars](#-platform-pillars)
+- [🧠 Intelligence Engine](#-intelligence-engine)
+- [🛠️ Technology Stack](#️-technology-stack)
+- [📡 Deployment & Quickstart](#-deployment--quickstart)
+- [🗺️ Future Roadmap](#-future-roadmap)
 - [📄 License](#-license)
 
 
@@ -64,17 +58,19 @@ app_port: 7860
 
 ---
 
-## 🎯 Problem Statement
+## 🧩 The Problem: Silent Disease Progression
 
-### 🏥 Track 1: Clinical Decision Support
+Chronic diseases often develop without overt symptoms. By the time clinical markers are obvious, outcomes are often compromised and treatment costs skyrocket.
+
+### 🏥 The Clinical Gap
 
 <div align="center">
 
 ```mermaid
 graph LR
-    A[😷 Silent Disease<br/>Progression] --> B[⏰ Late Detection]
-    B --> C[💰 Costly<br/>Interventions]
-    C --> D[📉 Poor<br/>Outcomes]
+    A[😷 Silent Progression] --> B[⏰ Late Detection]
+    B --> C[💰 High Cost Care]
+    C --> D[📉 Suboptimal Outcomes]
     
     style A fill:#ff6b6b,stroke:#c92a2a,color:#fff
     style B fill:#ffa94d,stroke:#e8590c,color:#fff
@@ -84,45 +80,26 @@ graph LR
 
 </div>
 
-#### 🔍 Context
-
-Chronic diseases such as **diabetes** often develop silently. By the time symptoms appear, interventions become costly and outcomes worsen. Clinicians operate under:
-
-- ⏱️ **Time Pressure** — Limited consultation windows
-- 📊 **Data Gaps** — Incomplete historical records  
-- ❓ **Uncertainty** — Complex probabilistic assessments
-
-Meanwhile, **patients struggle** to understand probabilistic health risks and preventive actions.
-
-#### ⚠️ The Challenge
-
-> **Design a clinical decision support workflow that:**
-> - ✅ Surfaces early risk signals from routine patient data
-> - ✅ Supports informed, timely interventions
-> - ✅ Doesn't overwhelm doctors or mislead patients
-
-#### 💡 What Our Solution Enables
+AstraMed bridges this gap by providing **Early Risk Intelligence** through a multi-modal assessment workflow that supports both the specialized clinician and the proactive patient.
 
 <table>
 <tr>
 <td width="50%">
 <h4>🔬 For Clinicians</h4>
 <ul>
-<li>📈 High-density risk scores with confidence intervals</li>
-<li>🎯 Key contributing factors ranked by importance</li>
-<li>📊 SHAP-based explanations and visualizations</li>
-<li>💊 Evidence-based action recommendations</li>
-<li>📉 Longitudinal trend analysis</li>
+<li>📈 **Precision Scoring**: High-density risk quantification.</li>
+<li>🎯 **Feature Attribution**: What-if drivers ranked by SHAP.</li>
+<li>📊 **Interpretability**: Visual justification for every decision.</li>
+<li>💊 **Evidence-Based**: Recommendations rooted in clinical data.</li>
 </ul>
 </td>
 <td width="50%">
 <h4>👤 For Patients</h4>
 <ul>
-<li>🚦 Simple risk gauges (traffic light system)</li>
-<li>📝 Plain-language summaries</li>
-<li>🥗 Personalized lifestyle guidance</li>
-<li>📱 Progress tracking over time</li>
-<li>✨ AI-generated action plans</li>
+<li>🚦 **Risk Gauges**: Intuitive visual status reporting.</li>
+<li>📝 **Natural Language**: Summaries by BioMistral-7B.</li>
+<li>🥗 **Actionable Change**: Personalized lifestyle guidance.</li>
+<li>📱 **Digital Twin**: Visualizing the "Healthy Me" future.</li>
 </ul>
 </td>
 </tr>
@@ -141,88 +118,44 @@ Meanwhile, **patients struggle** to understand probabilistic health risks and pr
 
 
 
+## 🚀 Platform Pillars
 
-</div>
-
-### 🔄 Data Flow Pipeline
-
-<div align="center">
-<img width="1349" height="641" alt="image" src="https://github.com/user-attachments/assets/76e3bb05-d06e-4031-9925-ea9ffa086ed5" />
-
-
-</div>
-
----
-
-## 🚀 Key Features
-
-### 🎯 Core Capabilities
+AstraMed is built on four core pillars that transform raw clinical data into actionable intelligence.
 
 <table>
 <tr>
 <td width="50%">
 
-#### 1️⃣ Risk Scoring & Stratification
-
-- 📊 **Multi-Level Classification**: Low / Medium / High risk tiers
-- 📈 **Confidence Intervals**: Uncertainty quantification
-- 📉 **Longitudinal Tracking**: Risk velocity over time
-- 🎯 **Percentile Rankings**: Population-based context
+#### 1️⃣ Intelligent Risk Stratification
+- 📊 **Multi-Level Classification**: Automated sorting into Low / Medium / High risk tiers.
+- 📈 **Confidence intervals**: Statistical uncertainty quantification for high-stakes decisions.
+- 📉 **Longitudinal Trends**: Real-time tracking of risk velocity over patient history.
 
 </td>
 <td width="50%">
 
-#### 2️⃣ Explainability & Transparency
-
-- 🔍 **SHAP Values**: Feature importance rankings
-- 📊 **Force Plots**: Visual explanation of predictions
-- 🎨 **Interactive Charts**: Drill-down analysis
-- 📋 **Audit Trails**: Complete decision logs
+#### 2️⃣ Explainable AI (XAI)
+- 🔍 **SHAP Interpretability**: Deep feature attribution for every individual prediction.
+- 📊 **Force Plot Visuals**: Graphical explanation of "why" a score was generated.
+- 📋 **Clinical Auditability**: Transparent decision logs for medical review.
 
 </td>
 </tr>
 <tr>
 <td width="50%">
 
-#### 3️⃣ Counterfactual Reasoning
-
-- 🎛️ **What-If Scenarios**: "Reduce BMI by 5% → Risk ↓15%"
-- 🔄 **Interactive Simulation**: Real-time slider controls
-- 🎯 **Modifiable Factors**: Focus on actionable changes
-- 📈 **Impact Visualization**: Before/after comparisons
+#### 3️⃣ Generative Clinical Wisdom
+- 🤖 **BioMistral-7B**: Medical-grade LLM used for synthesizing complex data.
+- 📝 **Dual-Mode Reports**: Automated technical summaries for doctors and plain-language for patients.
+- 📄 **Exportable Insight**: One-click PDF generation for clinical records.
 
 </td>
 <td width="50%">
 
-#### 4️⃣ AI-Powered Reports
-
-- 📝 **Clinical Summaries**: Technical detail for providers
-- 👤 **Patient Explanations**: Plain-language versions
-- 🤖 **BioMistral-7B**: Medical-grade language model
-- 📄 **PDF Generation**: Exportable reports
-
-</td>
-</tr>
-</tr>
-<tr>
-<td width="50%">
-
-#### 5️⃣ Population Analytics
-
-- 👥 **Digital Twin Matching**: Find similar patient outcomes
-- 📊 **Cohort Analysis**: Demographic comparisons
-- 🎯 **Percentile Context**: "Your risk is higher than 82% of peers"
-- 📈 **Trend Detection**: Population-level patterns
-
-</td>
-<td width="50%">
-
-#### 6️⃣ Pro Max UI/UX Experience
-
-- 💎 **Glassmorphism 2.0**: Premium, accessible aesthetic
-- 🔲 **Bento Grid Layout**: Information-dense, organized dashboard
-- 🎛️ **Interactive Sliders**: Real-time "What-If" adjustments
-- 📊 **Radial Risk Gauges**: Dynamic, animated risk visualization
+#### 4️⃣ Counterfactual "What-If" Engine
+- 🎛️ **Scenario Simulation**: "What happens if HbA1c drops by 1.0?"
+- 🔄 **Interactive Biometrics**: Real-time adjustment of patient vitals to see risk impact.
+- 🎯 **Actionable Target Setting**: Identify the exact lifestyle changes that yield maximum risk reduction.
 
 </td>
 </tr>
@@ -230,467 +163,104 @@ Meanwhile, **patients struggle** to understand probabilistic health risks and pr
 
 ---
 
-## 🧠 The Machine Learning Engine
+## 🧠 Intelligence Engine
 
-AstraMed is powered by an enterprise-grade **Ensemble Learning Pipeline** designed for high-stakes clinical environments where accuracy and explainability are paramount.
+AstraMed leverages an enterprise-grade **Ensemble Learning Pipeline** designed for high-accuracy clinical environments.
 
-### 🔬 Architecture: The "Tri-Force" Ensemble
-Instead of relying on a single model, we leverage a **Soft-Voting Ensemble** of three industry-leading gradient boosting algorithms:
-
-1.  **XGBoost (eXtreme Gradient Boosting)**: Optimized for speed and performance on structured clinical data.
-2.  **CatBoost (Categorical Boosting)**: Handles categorical features (e.g., "Gender", "Smoking History") natively without leakage.
-3.  **LightGBM**: Provides high efficiency on large-scale datasets.
+### 🔬 The "Tri-Force" Ensemble
+Instead of a single model, we use a **Soft-Voting Ensemble** of three state-of-the-art gradient boosting algorithms:
+1.  **XGBoost**: Optimized for structured clinical data performance.
+2.  **CatBoost**: Handles categorical features (gender, history) without information leakage.
+3.  **LightGBM**: Provides extreme efficiency on large-scale population datasets.
 
 ```mermaid
 graph TD
-    A[Patient Data] --> B[Preprocessing Pipeline]
+    A[Patient Input] --> B[Preprocessing & Normalization]
     B --> C{Ensemble Core}
-    C -->|Probability| D[XGBoost]
-    C -->|Probability| E[CatBoost]
-    C -->|Probability| F[LightGBM]
+    C -->|Prob| D[XGBoost]
+    C -->|Prob| E[CatBoost]
+    C -->|Prob| F[LightGBM]
     D & E & F --> G[Soft Voting Aggregator]
-    G --> H[Final Risk Score]
-    H --> I[Calibration Layer]
-    I --> J[Risk Stratification]
+    G --> H[Calibrated Risk Score]
+    H --> I[BioMistral Summary Gen]
+    I --> J[Final Clinical Report]
 ```
-
-### 🔍 Explainable AI (XAI) with SHAP
-We solve the "Black Box" problem using **SHAP (SHapley Additive exPlanations)**. Every prediction comes with a mathematical justification:
--   **Local Interpretability**: Why did *this specific patient* get a high risk score? (e.g., "+15% due to High HbA1c").
--   **Global Interpretability**: What factors drive disease risk across the entire population?
-
-### 🔄 "What-If" Counterfactual Simulation
-AstraMed goes beyond static predictions. Our **Counterfactual Engine** allows clinicians to simulate outcomes:
-> *"If the patient reduces BMI by 2 points and lowers HbA1c to 5.7%, how does their 5-year risk change?"*
-This empowers shared decision-making and personalized goal setting.
 
 ---
 
-## 🛠️ Tech Stack
-
-<div align="center">
-
-### Backend Stack
-
-![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-0.104+-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-1.3+-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![XGBoost](https://img.shields.io/badge/XGBoost-Latest-337AB7?style=for-the-badge)
-![Pandas](https://img.shields.io/badge/Pandas-2.0+-150458?style=for-the-badge&logo=pandas&logoColor=white)
-
-### Frontend Stack
-
-![React](https://img.shields.io/badge/React-18+-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-5.0+-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Tailwind](https://img.shields.io/badge/Tailwind_CSS-3.0+-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
-![Recharts](https://img.shields.io/badge/Recharts-2.10+-22c55e?style=for-the-badge)
-![Lucide](https://img.shields.io/badge/Lucide_Icons-Latest-F7931E?style=for-the-badge)
-
-### ML & AI Stack
-
-<div align="center">
-
-### Frontend
-![React](https://img.shields.io/badge/React-18+-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-5.0+-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Tailwind](https://img.shields.io/badge/Tailwind_CSS-3.0+-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-5.0+-646CFF?style=for-the-badge&logo=vite&logoColor=white)
-![Recharts](https://img.shields.io/badge/Recharts-2.10+-22c55e?style=for-the-badge)
-
-### Backend & ML
-![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-0.104+-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-1.3+-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![XGBoost](https://img.shields.io/badge/XGBoost-Latest-337AB7?style=for-the-badge)
-![SHAP](https://img.shields.io/badge/SHAP-XAI-FF0080?style=for-the-badge)
-
-### DevOps & Infrastructure
-![Docker](https://img.shields.io/badge/Docker-24.0+-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-Frontend-000000?style=for-the-badge&logo=vercel&logoColor=white)
-![Hugging Face](https://img.shields.io/badge/Hugging_Face-Backend-FFD21E?style=for-the-badge)
-![Git](https://img.shields.io/badge/Git-LFS-F05032?style=for-the-badge&logo=git&logoColor=white)
-
-</div>
-
-</div>
-
-### 📊 Technology Matrix
+## 🛠️ Technology Stack
 
 | Layer | Technology | Purpose |
 |:------|:-----------|:--------|
-| 🎨 **Frontend** | React + TypeScript | Interactive UI components |
-| 🎨 **Styling** | Tailwind CSS | Responsive design system |
-| ⚡ **Backend** | FastAPI | High-performance REST API |
-| 🧠 **ML Engine** | XGBoost + LightGBM + CatBoost | SOTA ensemble prediction |
-| 🔍 **Explainability** | SHAP | Feature importance analysis |
-| 🤖 **AI Engine** | BioMistral-7B | Medical language model |
-| 💾 **Database** | JSON Store (MVP) → PostgreSQL | Patient history & records |
-| 🐳 **Container** | Docker + Docker Compose | Consistent deployment |
-| 🚀 **Deployment** | Huggingface (Backend) + Vercel (Frontend) | Cloud hosting |
+| **Core UI** | React 18 + TypeScript | Type-safe, high-performance interface |
+| **Styling** | Tailwind CSS | Modern Glassmorphism 2.0 design system |
+| **API** | FastAPI (Python) | Asynchronous, high-throughput REST service |
+| **ML Engine** | XGBoost + CatBoost + LightGBM | Multi-model ensemble prediction |
+| **XAI** | SHAP | Mathematical feature attribution |
+| **GenAI** | BioMistral-7B (LLM) | Medical-grade report synthesis |
+| **DevOps** | Docker + Docker Compose | Containerized microservice delivery |
 
 ---
 
-## 👥 Team Structure
+## 📡 Deployment & Quickstart
 
-<div align="center">
-
-### 🎯 4-Member Multidisciplinary Team
-
-</div>
-
-<table>
-<tr>
-<td width="50%">
-
-### 🔬 ML Engineer
-**Model Development & Explainability**
-
-#### 🎯 Responsibilities
-- 📊 Dataset cleaning and exploratory data analysis
-- 🤖 Risk model development (XGBoost, LightGBM, CatBoost)
-- 📈 Uncertainty quantification and calibration
-- 🔍 SHAP-based feature importance
-- 🎲 Counterfactual reasoning implementation
-- ⚖️ Bias detection and fairness analysis
-
-#### 📦 Deliverables
-- `ml-research/train.py` — Model training pipeline
-- `backend/models/risk_model.py` — Inference engine
-- `backend/models/explainability.py` — SHAP integration
-- Model performance reports and visualizations
-
-</td>
-<td width="50%">
-
-### ⚙️ Backend Engineer
-**FastAPI Services & Infrastructure**
-
-#### 🎯 Responsibilities
-- 🏗️ API architecture and endpoint design
-- 📥 Patient data ingestion and validation
-- 🔐 Authentication and authorization
-- 📊 Risk computation API endpoints
-- 👥 Cohort analysis and digital twin matching
-- 🚀 Deployment setup (Docker, Render)
-
-#### 📦 Deliverables
-- `backend/app.py` — Main FastAPI application
-- `backend/routes/` — All API endpoints
-- `backend/schemas/` — Pydantic models
-- API documentation (OpenAPI/Swagger)
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-### 👨‍⚕️ Frontend Engineer (Clinician)
-**Professional Dashboard Interface**
-
-#### 🎯 Responsibilities
-- 🎨 Clinician dashboard UI/UX design
-- 🔍 Patient search and filtering system
-- 📊 Risk score visualization (gauges, charts)
-- 🎯 Key driver display components
-- 📋 Explanation panels and tooltips
-- 💊 Action recommendation interface
-
-#### 📦 Deliverables
-- `frontend/src/components/Clinician/` — Dashboard components
-- Risk visualization library
-- Clinical workflow integration
-- Responsive design implementation
-
-</td>
-<td width="50%">
-
-### 👤 Frontend Engineer (Patient)
-**Patient Portal & Documentation**
-
-#### 🎯 Responsibilities
-- 🎨 Patient portal UI/UX design
-- 🚦 Simple risk gauge (traffic light)
-- 📝 Plain-language explanation generation
-- 🥗 Lifestyle recommendation interface
-- 📈 Progress tracking visualizations
-- 📚 Project documentation and pitch deck
-
-#### 📦 Deliverables
-- `frontend/src/components/Patient/` — Patient components
-- User-friendly health guidance interface
-- `docs/` — Comprehensive documentation
-- Presentation slides and demo materials
-
-</td>
-</tr>
-</table>
-
----
-
-## 📅 Development Timeline
-
-<div align="center">
-
-
-</div>
-
-
-### 📋 Detailed Sprint Plan
-
-#### 🗓️ Week 1: Design & Core Model (by Jan 24)
-
-<details>
-<summary>🎯 Click to expand tasks</summary>
-
-- [ ] **Project Setup**
-  - [ ] Initialize GitHub repository with proper structure
-  - [ ] Set up development environments (Python, Node.js)
-  - [ ] Configure CI/CD pipelines (GitHub Actions)
-  - [ ] Create project board and issue templates
-
-- [ ] **ML Foundation**
-  - [ ] Load and explore diabetes dataset
-  - [ ] Perform statistical analysis and visualization
-  - [ ] Handle missing values and outliers
-  - [ ] Feature engineering (interactions, scaling)
-  - [ ] Initial model prototyping
-
-- [ ] **Backend Architecture**
-  - [ ] Design API schema (Pydantic models)
-  - [ ] Set up FastAPI boilerplate
-  - [ ] Implement health check endpoints
-  - [ ] Configure CORS and middleware
-
-- [ ] **Frontend Design**
-  - [ ] Create wireframes for clinician dashboard
-  - [ ] Design patient portal mockups
-  - [ ] Set up React + TypeScript + Vite
-  - [ ] Implement component structure
-
-</details>
-
-#### 🗓️ Week 2: Full Stack Development (by Jan 31)
-
-<details>
-<summary>🎯 Click to expand tasks</summary>
-
-- [ ] **ML Pipeline**
-  - [ ] Train ensemble model (XGBoost + LightGBM + CatBoost)
-  - [ ] Implement SHAP explainability
-  - [ ] Calculate feature importance
-  - [ ] Serialize models (.joblib files)
-  - [ ] Validate model performance (AUC-ROC, calibration)
-
-- [ ] **Backend APIs**
-  - [ ] `/predict` — Risk assessment endpoint
-  - [ ] `/simulate` — What-if analysis endpoint
-  - [ ] `/report` — AI report generation endpoint
-  - [ ] `/history` — Patient timeline endpoint
-  - [ ] `/cohort` — Population analysis endpoint
-
-- [ ] **Frontend Integration**
-  - [ ] Clinician dashboard with risk visualization
-  - [ ] Patient portal with simple gauges
-  - [ ] Connect to backend APIs
-  - [ ] Implement state management
-  - [ ] Add loading states and error handling
-
-- [ ] **End-to-End Testing**
-  - [ ] Integration tests for API endpoints
-  - [ ] UI component tests
-  - [ ] Full workflow validation
-
-</details>
-
-#### 🗓️ Week 3: Polish & Submission (by Feb 9)
-
-<details>
-<summary>🎯 Click to expand tasks</summary>
-
-- [ ] **Advanced Features**
-  - [ ] Implement counterfactual engine
-  - [ ] Add cohort comparison functionality
-  - [ ] Integrate BioMistral-7B for AI reports
-  - [ ] Build what-if simulation interface
-
-- [ ] **Documentation**
-  - [ ] Write comprehensive README
-  - [ ] Create MODEL_CARD.md
-  - [ ] Document ETHICS_AND_LIMITATIONS.md
-  - [ ] Complete ARCHITECTURE.md
-  - [ ] Generate API documentation
-
-- [ ] **Presentation**
-  - [ ] Design pitch deck (15 slides)
-  - [ ] Record demo video (5-7 minutes)
-  - [ ] Prepare talking points
-  - [ ] Rehearse presentation
-
-- [ ] **Final Polish**
-  - [ ] UI/UX refinement and accessibility
-  - [ ] Performance optimization
-  - [ ] Bug fixes and edge case handling
-  - [ ] Docker deployment testing
-  - [ ] Submit repository and materials
-
-</details>
-
----
-
-## ⚡ Quick Start
-
-### 📋 Prerequisites
+### 🐳 Run with Docker (Recommended)
+The fastest way to get AstraMed running locally is via Docker Compose:
 
 ```bash
-# Required software
-✅ Python 3.10+
-✅ Node.js 18+
-✅ Git 2.30+
-✅ Docker 24.0+ (optional)
-```
-
-### 🐍 Backend Setup
-
-```bash
-# Navigate to backend directory
-cd backend
-
-# Create virtual environment
-python -m venv venv
-
-# Activate virtual environment
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Run the server
-uvicorn backend.api:app --reload --port 8001
-
-# 🎉 Server running at http://localhost:8001
-# 📚 API docs at http://localhost:8001/docs
-```
-
-### ⚛️ Frontend Setup
-
-```bash
-# Navigate to frontend directory
-cd frontend
-
-# Install dependencies
-npm install
-
-# Start development server
-npm run dev
-
-# 🎉 App running at http://localhost:5173
-```
-
-### 🧠 ML Model Training
-
-```bash
-# Navigate to ML research directory
-cd ml-research
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Train the model
-python train_pro.py
-
-# 📦 Models saved to backend/models/
-# 📊 Performance metrics in outputs/
-```
-
-### 🐳 Docker Deployment (Recommended)
-
-```bash
-# Build and run all services
+git clone https://github.com/purvanshjoshi/clinical-risk-predictor.git
+cd clinical-risk-predictor
 docker-compose up --build
+```
+*Access the UI at `http://localhost:3000` and API Docs at `http://localhost:8001/docs`.*
 
-# Services available at:
-# 🎨 Frontend: http://localhost:3000
-# ⚡ Backend: http://localhost:8001
-# 📚 API Docs: http://localhost:8001/docs
+### 🐍 Manual Backend Setup
+```bash
+cd backend
+python -m venv venv
+source venv/bin/activate  # Windows: venv\Scripts\activate
+pip install -r requirements.txt
+uvicorn backend.api:app --reload --port 8001
 ```
 
 ---
 
 ## 📦 Project Structure
 
-```
+```text
 clinical-risk-predictor/
-│
-├── 📁 backend/                     # FastAPI Server
-│   ├── 📄 app.py                   # Main application entry point
-│   ├── 📄 requirements.txt         # Python dependencies
-│   │
-│   ├── 📁 models/                  # ML Risk Models
-│   │   ├── 📄 risk_model.py        # Ensemble prediction engine
-│   │   ├── 📄 counterfactuals.py   # What-if analysis logic
-│   │   └── 📄 explainability.py    # SHAP feature importance
-│   │
-│   ├── 📁 routes/                  # API Endpoints
-│   │   ├── 📄 patient.py           # Patient data management
-│   │   ├── 📄 risk.py              # Risk computation APIs
-│   │   └── 📄 cohort.py            # Population analytics
-│   │
-│   ├── 📁 schemas/                 # Data Validation
-│   │   ├── 📄 patient.py           # Patient data models
-│   │   └── 📄 prediction.py        # Prediction schemas
-│   │
-│   └── 📁 utils/                   # Helper Functions
-│       ├── 📄 preprocessing.py     # Feature engineering
-│       └── 📄 validation.py        # Data validation
-│
-├── 📁 frontend/                    # React Application
-│   ├── 📄 package.json             # Node dependencies
-│   ├── 📄 vite.config.ts           # Vite configuration
-│   │
-│   ├── 📁 public/                  # Static Assets
-│   │   └── 🖼️ logo.svg
-│   │
-│   └── 📁 src/
-│       ├── 📄 App.tsx              # Root component
-│       ├── 📄 main.tsx             # Entry point
-│       │
-│       ├── 📁 components/          # React Components
-│       │   │
-│       │   ├── 📁 Clinician/       # Doctor Dashboard
-│       │   │   ├── 📄 RiskDashboard.tsx
-│       │   │   ├── 📄 PatientList.tsx
-│       │   │   ├── 📄 RiskDetail.tsx
-│       │   │   └── 📄 CohortAnalysis.tsx
-│       │   │
-│       │   ├── 📁 Patient/         # Patient Portal
-│       │   │   ├── 📄 RiskGauge.tsx
-│       │   │   ├── 📄 SimpleReport.tsx
-│       │   │   ├── 📄 ActionPlan.tsx
-│       │   │   └── 📄 Progress.tsx
-│       │   │
-│       │   └── 📁 Common/          # Shared Components
-│       │       ├── 📄 Header.tsx
-│       │       ├── 📄 Footer.tsx
-│       │       └── 📄 LoadingSpinner.tsx
-│       │
-│       ├── 📁 pages/               # Page Components
-│       │   ├── 📄 ClinicianView.tsx
-│       │   └── 📄 PatientView.tsx
-│       │
-│       ├── 📁 hooks/               # Custom Hooks
-│       │   └── 📄 useRiskPrediction.ts
-│       │
-│       └── 📁 utils/               # Utilities
-│           └── 📄 api.ts           # API client
-│
-├── 📁 ml-research/                 # ML Development
-│   ├── 📄 train.py                 # Model training script
-│   ├── 📄 evaluate.py              # Model evaluation
-│   ├── 📄 requirements.txt         # ML dependencies
-│   │
-│   ├── 📁 notebooks/               # Jupyter Notebooks
-│   │   ├── 📓 01_EDA.ipynb         # Exploratory analysis
-│   │   ├── 📓 02_Modeling.ipynb    # Model development
+├── 📁 backend/          # FastAPI Server & ML Models
+│   ├── 📁 models/       # Inference engines (Risk, SHAP, LLM)
+│   └── 📁 routes/       # API endpoints (Predict, Stream, Auth)
+├── 📁 frontend/         # React (Vite) Application
+│   ├── 📁 src/components/ # UI Components (Dashboard, Simulation, LLM)
+│   └── 📁 src/api/      # Axios client wrappers
+├── 📁 ml-research/      # Training notebooks & evaluation scripts
+└── 🐳 Dockerfile        # Multi-stage production builds
+```
+
+---
+
+## 🗺️ Future Roadmap
+
+- [ ] **FHIR Integration**: Native support for HL7 FHIR data standards.
+- [ ] **Federated Learning**: Privacy-preserving model training across hospitals.
+- [ ] **Computer Vision**: Integration of medical imaging (X-ray/MRI) into the risk ensemble.
+- [ ] **Mobile App**: Cross-platform patient portal for real-time health tracking.
+
+---
+
+## 📄 License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+<div align="center">
+
+**Ready to transform clinical decision making?**  
+[Star on GitHub](https://github.com/purvanshjoshi/clinical-risk-predictor) • [Report Bug](https://github.com/purvanshjoshi/clinical-risk-predictor/issues) • [Request Feature](https://github.com/purvanshjoshi/clinical-risk-predictor/issues)
+
+</div>
+�� 📓 02_Modeling.ipynb    # Model development
 │   │   └── 📓 03_Evaluation.ipynb  # Performance analysis
 │   │
 │   └── 📁 experiments/             # Experiment Logs
